@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- পিছনের ফোন/উইন্ডো -->
+    <path
+        android:fillColor="#FF000000"
+        android:fillAlpha="0.35"
+        android:pathData="M4,3h12c0.55,0 1,0.45 1,1v10c0,0.55 -0.45,1 -1,1H4c-0.55,0 -1,-0.45 -1,-1V4c0,-0.55 0.45,-1 1,-1z"/>
+    <!-- সামনের ফ্লোটিং টুলবার উইন্ডো -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M8,9h12c0.55,0 1,0.45 1,1v8c0,0.55 -0.45,1 -1,1H8c-0.55,0 -1,-0.45 -1,-1v-8c0,-0.55 0.45,-1 1,-1z"/>
+</vector>

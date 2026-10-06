@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- লোগোর সাথে মিলিয়ে কালার -->
+    <color name="navy_dark">#0D1026</color>
+    <color name="navy_darker">#090B1A</color>
+    <color name="accent_blue">#2E9BFF</color>
+    <color name="accent_purple">#7B5CFA</color>
+
+    <color name="background_light">#F4F5FA</color>
+    <color name="surface_card">#1A1D36</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B6CC</color>
+    <color name="text_muted">#8A8DA3</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

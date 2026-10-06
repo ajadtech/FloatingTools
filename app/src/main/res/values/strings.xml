@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Floating Tool</string>
+    <string name="search_hint">Search your favorite app</string>
+    <string name="section_your_apps">Your own apps</string>
+    <string name="section_all_online">All online apps</string>
+    <string name="section_web_supported">Your own web app supported</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_my_floating_apps">My Floating Apps</string>
+    <string name="telegram_url">https://t.me/incomemedhodBD</string>
+    <string name="facebook_url">https://www.facebook.com/ajad99.999</string>
+</resources>

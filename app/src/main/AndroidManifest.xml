@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ফ্লোটিং বার দেখানোর জন্য এই পারমিশন লাগবে -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Floating Tool"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:theme="@style/Theme.FloatingTools"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.FloatingTools">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ফ্লোটিং বার চালানোর সার্ভিস -->
+        <service
+            android:name=".service.FloatingBarService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse" />
+
+        <!-- YouTube-এর মতো ওয়েবসাইট ফ্লোটিং উইন্ডোতে খোলার সার্ভিস — মিনিমাইজ করলেও অডিও চলতে থাকে -->
+        <service
+            android:name=".service.FloatingWebBubbleService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse" />
+
+    </application>
+
+</manifest>
